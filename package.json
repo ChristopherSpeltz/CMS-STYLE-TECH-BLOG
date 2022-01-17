@@ -1,0 +1,27 @@
+{
+  "name": "cms-style-tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherSpeltz/CMS-STYLE-TECH-BLOG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherSpeltz/CMS-STYLE-TECH-BLOG/issues"
+  },
+  "homepage": "https://github.com/ChristopherSpeltz/CMS-STYLE-TECH-BLOG#readme",
+  "dependencies": {
+    "dotenv": "^14.0.1",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
+  }
+}
