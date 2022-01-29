@@ -14,13 +14,12 @@
 
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Tech Blog</a>
+        <a href="/" class="brand-logo">Tech Blog</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           {{#if loggedIn}}
             <li class="waves-effect waves-light btn"><a
                 href="/dashboard"
               >dashboard</a></li>
-            {{! <button id="logout" class="btn-no-style">logout</button> }}
             <button
               id="logout"
               class="waves-effect waves-light btn"
@@ -34,7 +33,6 @@
                 href="/login"
               >Login</a></li>
           {{/if}}
-          {{! <li><a href="collapsible.html">JavaScript</a></li> }}
         </ul>
       </div>
     </nav>
@@ -42,5 +40,9 @@
   </header>
   <body>
     {{{body}}}
+
+    {{#if loggedIn}}
+      <script src="/javascript/logout.js"></script>
+    {{/if}}
   </body>
 </html>
