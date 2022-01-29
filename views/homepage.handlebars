@@ -1,0 +1,23 @@
+{{!-- <ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol> --}}
+
+
+<div class="container">
+    {{#each posts}}
+    <div>
+        <button class="btn btn-danger">{{title}}</button>
+    </div>
+    {{/each}}
+</div>
+
+<div class="container">
+    <input id="newPost">
+    <button id="submitPost">Submit</button>
+</div>
+
+{{!-- <script src="/javascript/add-post.js"></script> --}}
